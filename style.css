@@ -1,0 +1,166 @@
+@font-face{
+  font-family: Norwester;
+  src: url(norwester.woff);
+}
+@font-face{
+  font-family: OpenSans;
+  src: url(opensans.woff);
+}
+@font-face{
+  font-family: VT323;
+  src: url(VT323.woff);
+}
+body{
+  margin: 0;
+  position: absolute;
+}
+h1{
+  margin: 2px;
+  font-size: 10vw;
+}
+p{
+  margin: 2px;
+  font-size: 1.9vw;
+}
+.texto_justificado{
+  text-align: justify;
+}
+.texto_direita{
+  text-align: right;
+}
+.titulo{
+  font-family: Norwester;
+  letter-spacing: 10px;
+}
+.subtitulo{
+  font-family: OpenSans;
+  letter-spacing: 7partepx;
+  color: #fead09;
+}
+.texto_principal{
+  font-family: Norwester;
+}
+.texto_secundário{
+  font-family: OpenSans;
+  letter-spacing: 4px;
+  color: #fead09;
+}
+.container{
+  display: flex;
+}
+.center{
+  align-items: center;
+  justify-content: center;
+}
+.espacado{
+  justify-content: space-around;
+}
+.coluna{
+  flex-direction: column;
+}
+.linha{
+  flex-direction: row;
+}
+.flex{
+  flex-grow: 1;
+}
+header{
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgba(217, 217, 217, 0.5);
+}
+#logo {
+  height: 140%;
+  position: absolute;
+  top: 2vh;
+  right: 3vh;
+}
+.tela{
+  width: 100vw;
+  height: 100vh;
+}
+.parte_visivel{
+  width: 100vw;
+  height: 90vh;
+  position: relative;
+  top: 10vh;
+}
+.principal{
+  width: 80%;
+  height: 90%;
+}
+#p1{
+  background-color: #065772;
+  color: #FFFFFF;
+}
+#p2{
+  background-image: linear-gradient(to bottom, #065772, #75bfe1);
+}
+#p3{
+  background-color: #fed45c;
+  color: #FFFFFF;
+}
+.foto_perfil{
+  width: 80%;
+  border-radius: 50%;
+}
+.barra_prompt{
+  width: 100%;
+}
+.prompt{
+  height: 55vh;
+  width: 85%;
+  padding: 0 30px 0;
+  background-color: #526469;
+  border: solid 8px;
+  border-radius: 2.5vw;
+  border-color: #01181f;
+}
+.descricao{
+  font-family: VT323;
+  font-size: 2vw;
+}
+#p4{
+  background-color: #FFFFFF;
+  color: #065772;
+}
+.social{
+  width: 30vw;
+}
+.rede_social{
+  font-size: 4vw;
+  width: 10vw;
+  height: 10vw;
+  margin: 3vh;
+  border-radius: 5vw;
+  color: #FFFFFF;
+  background-color: #d9d9d9;
+  transition: .8s;
+  text-decoration:none;
+}
+#instagram:hover{
+  width: 12vw;
+  height: 12vw;
+  border-radius: 6vw;
+  background-color: #c2143d;
+  transition: .8s;
+}
+#facebook:hover{
+  width: 11vw;
+  height: 11vw;
+  background-color: #233792;
+  transition: .8s;
+}
+#spotify:hover{
+  width: 11vw;
+  height: 11vw;
+  background-color: #121212;
+  color: #65bb40;
+  transition: .8s;
+}
+#p5{
+  background-color: #fead09;
+}
