@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="(max-width: 1100px)" href="style_movel.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
@@ -11,26 +12,34 @@
   </head>
 
   <body>
-
-    <header>
-
+    <header class="container center">
+      <div class="container center linha">
+        <a href="#p1" class="endereco">INICIO</a>
+        <a href="#p2" class="endereco">PAG 2</a>
+        <a href="#p3" class="endereco">SOBRE</a>
+        <a href="#p4" class="endereco">SOCIAL</a>
+        <a href="#p5" class="endereco">FIM</a>
+      </div>
     </header>
 
     <div class="corpo">
-
-      <div class="tela" id="p1">
+      <section class="tela" id="p1">
         <div class="parte_visivel container center coluna">
             <div class="titulo"><h1>Guilherme</h1></div>
             <div class="subtitulo"><p>UM POUCO SOBRE MIM</p></div>
           </div>
         </div>
-      </div>
-
-      <div class="tela" id="p2">
-
-      </div>
-
-      <div class="tela" id="p3">
+      </section>
+      <section class="tela" id="p2">
+        <div class="parte_visivel container center">
+          <div class="principal container center">
+            <iframe width="1120" height="630" src="https://www.youtube.com/embed/Tei17RJ5QYQ"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+             picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+      <section class="tela" id="p3">
         <div class="parte_visivel container center">
           <div class="principal container center">
 
@@ -48,7 +57,7 @@
                   <dt>> Naturlidade</dt>
                   <dd>Baiano nascido em itapetinga | Naturalizado em Vitória da Conquista | Mora atualmente em San Charles</dd>
                   <dt>> Formação</dt>
-                  <dd>Técnico em INFORMÁTICA pelo IFBA</dd>
+                  <dd>Técnico em INFORMÁTICA pelo IFBA | Acadêmico de BSI no ICMC - USP</dd>
                   <dt>> Hobbies</dt>
                   <dd>Tirar e editar fotos | Ouvir músicas | Conversar a lot</dd>
                   <dt>> Números</dt>
@@ -59,9 +68,8 @@
 
           </div>
         </div>
-      </div>
-
-      <div class="tela" id="p4">
+      </section>
+      <section class="tela" id="p4">
         <div class="parte_visivel container center">
           <div class="principal container center">
 
@@ -83,13 +91,14 @@
 
           </div>
         </div>
-      </div>
-
-      <div class="tela" id="p5">
-
-      </div>
-
-
+      </section>
+      <section class="tela" id="p5">
+        <div class="parte_visivel container center">
+          <div class="principal container center">
+            <img src="girl.gif" alt="girl" class="girl">
+          </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>
